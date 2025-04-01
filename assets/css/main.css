@@ -2199,6 +2199,7 @@ input, select, textarea {
 			}
 
 		.image.main {
+			background-size:cover;
 			display: block;
 			height: 20em;
 			border-radius: 0;
