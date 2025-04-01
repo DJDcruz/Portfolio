@@ -2199,19 +2199,13 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
-			height: 20em;
-			border-radius: 0;
+			background-image: url("images/iq.jpeg");
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			width: 100%; /* or a fixed width */
+			height: 400px; /* set a height */
 		}
-
-			.image.main img {
-				background-image: url("images/iq.jpeg");
-				background-size: cover;
-				background-position: center;
-				background-repeat: no-repeat;
-				width: 100%; /* or a fixed width */
-				height: 400px; /* set a height */
-			}
 
 /* List */
 
