@@ -2200,11 +2200,12 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			height: 60em;
+			height: 20em;
 			border-radius: 0;
 		}
 
 			.image.main img {
+				background-size:cover;
 				border-radius: 0;
 			}
 
