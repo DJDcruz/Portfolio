@@ -2199,15 +2199,18 @@ input, select, textarea {
 			}
 
 		.image.main {
-			background-size:cover;
 			display: block;
 			height: 20em;
 			border-radius: 0;
 		}
 
 			.image.main img {
-				background-size:cover;
-				border-radius: 0;
+				background-image: url("images/iq.jpeg");
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+				width: 100%; /* or a fixed width */
+				height: 400px; /* set a height */
 			}
 
 /* List */
